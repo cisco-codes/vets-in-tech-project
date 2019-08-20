@@ -43,8 +43,50 @@ body {
 	  float: right;
   }
 
-  .jumbotron {
-	animation-duration: 1s;
+
+
+  body > div > div.col-lg-12.col-sm-12 > div{
+	  background-color:rgba(255,255,255,0.5);
+  }
+
+.container{
+	ba ckground-color: rgba(255,255,255,0.5);
+}
+
+  #colorChange {
+	  text-align: center;
+  }
+
+  label{
+	  font-size: 2rem;
+	  padding-bottom: 2rem;
+  }
+
+  button {
+    font-size: 3rem;
+	border-radius: 12px;
+	border-color: transparent;
+	margin-left: 5px;
+}
+
+.fa {
+	padding-right: 2rem;
+}
+
+
+  .jumbotron, .row, .col-lg-12.col-sm-12{
+	animation-duration: 2s;
+	animation-name: fadeIn;
+  }
+  
+  @keyframes fadeIn {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+ } 
+
+ /* .row{
+	animation-duration: 2s;
+	animation-delay: 1s;
 	animation-name: slidein;
   }
   
@@ -58,12 +100,20 @@ body {
 	  margin-left: 0%;
 	  width: 100%;
 	}
-  }
+  } */
 
-  body > div > div.col-lg-12.col-sm-12 > div{
-	  background-color:rgba(255,255,255,0.5);
-  }
-
-  #colorChange {
-	  text-align: center;
+  .mailButton{
+		background-color: #69bcf0;
+		border-radius: 12px;
+		color: white;
+		padding: 20px 34px;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+		margin: 4px 2px;
+		cursor: pointer;
+		left: auto;
+		right: auto;
+		margin-left: 45%;
+		}
   }

@@ -44,14 +44,16 @@ body {
   }
 
 
+  body > div > div.col-lg-12.col-sm-12 > div > img{
+	  padding-top:5em;
+	  padding-bottom: 5em;
+  }
+
 
   body > div > div.col-lg-12.col-sm-12 > div{
 	  background-color:rgba(255,255,255,0.5);
   }
 
-.container{
-	ba ckground-color: rgba(255,255,255,0.5);
-}
 
   #colorChange {
 	  text-align: center;
@@ -84,25 +86,8 @@ body {
 	100% {opacity: 1;}
  } 
 
- /* .row{
-	animation-duration: 2s;
-	animation-delay: 1s;
-	animation-name: slidein;
-  }
-  
-  @keyframes slidein {
-	from {
-	  margin-left: 100%;
-	  width: 300%; 
-	}
-  
-	to {
-	  margin-left: 0%;
-	  width: 100%;
-	}
-  } */
 
-  .mailButton{
+  .contactUs{
 		background-color: #69bcf0;
 		border-radius: 12px;
 		color: white;
@@ -110,10 +95,31 @@ body {
 		text-decoration: none;
 		display: inline-block;
 		font-size: 20px;
-		margin: 4px 2px;
+		/* margin: 4px 2px; */
 		cursor: pointer;
-		left: auto;
-		right: auto;
-		margin-left: 45%;
+
+
 		}
-  }
+  
+		#contactP {
+			text-align: center;
+			font-size: 2.5rem;
+		}
+
+		/* .thumbnail {
+		 height: 150px;
+		 width: 200px;
+		 object-fit: cover;
+		} */
+		
+		/* img{
+			height: 150px;
+			width: 200px;
+			object-fit: cover;
+		} */
+
+		.btn-container{
+			display:flex;
+			justify-content: center;
+			align-content: center;
+		}
